@@ -1,0 +1,35 @@
+appId: com.craftpilot.minecraft
+productName: CraftPilot
+icon: public/craftpilot-logo.png
+directories:
+  output: release/macos
+files:
+  - desktop/shared/**
+  - local/**
+  - app/**
+  - public/**
+  - .openai/**
+  - build/**
+  - worker/**
+  - package.json
+  - package-lock.json
+  - vite.config.ts
+  - next.config.ts
+  - postcss.config.mjs
+asarUnpack:
+  - local/**
+  - app/**
+  - public/**
+  - .openai/**
+  - build/**
+  - worker/**
+  - node_modules/**
+  - package.json
+  - vite.config.ts
+  - next.config.ts
+  - postcss.config.mjs
+extraMetadata:
+  main: desktop/shared/main.cjs
+mac:
+  category: public.app-category.games
+  target: dmg
