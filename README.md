@@ -77,6 +77,12 @@ La sezione **Plugin** interroga il marketplace Hangar, mostra download e stelle,
 
 Le build locali sono non firmate. Per distribuirle senza avvisi del sistema operativo servono i certificati del distributore della rispettiva piattaforma.
 
+## Download pubblico e sito
+
+- Landing per la condivisione: [craftpilot-vercel-site.vercel.app](https://craftpilot-vercel-site.vercel.app/)
+- Repository: [github.com/sonoFrangu/CraftPilot](https://github.com/sonoFrangu/CraftPilot)
+- Installer e sorgenti: [release v0.5.0](https://github.com/sonoFrangu/CraftPilot/releases/tag/v0.5.0)
+
 ## Note
 
 Paper viene scaricato solo dal servizio ufficiale e soltanto quando è disponibile una build stabile. Per modifiche granulari ai permessi oltre a operatore e whitelist sarà opportuno aggiungere, in una fase successiva, l'integrazione con un plugin come LuckPerms.

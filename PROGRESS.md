@@ -75,6 +75,8 @@ Questo file è il diario operativo del progetto. Gli stati sono:
 - `[x]` Ricerca Hangar verificata con un progetto reale (`Essentials`).
 - `[x]` Target Electron macOS arm64 assemblato in modalità non firmata; bundle Windows x64 e arm64 assemblati (installer NSIS/portable restano disponibili dal target Windows).
 - `[x]` Logo generato integrato nella dashboard, nel profilo server e nei target Electron.
+- `[x]` Landing social pubblicata su Vercel con download macOS/Windows, link GitHub e condivisione X/Reddit/copia link.
+- `[x]` Repository pubblico e release GitHub `v0.5.0` con DMG, installer NSIS, portable e archivio sorgente.
 - `[ ]` Test installazione reale dopo conferma EULA e download di una versione scelta.
 - `[ ]` Test tunnel end-to-end da una rete esterna.
 - `[ ]` Backup automatici pianificati e restore con conferma.
